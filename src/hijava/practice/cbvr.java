@@ -1,5 +1,5 @@
 package hijava.practice;
-
+// 모르겠어요
 public class cbvr {
 	int m = 2;
 

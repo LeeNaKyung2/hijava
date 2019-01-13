@@ -3,7 +3,7 @@ package hijava.practice;
 public class str {
 
 	public static void main(String[] args) {
-		char c='ÇÑ';
+		char c='í•œ';
 		byte b='B';
 		System.out.println(c);
 		System.out.println((int)c);
@@ -12,7 +12,7 @@ public class str {
 		String str="AB";
 		System.out.println(str);
 		System.out.println("AB".getBytes().length);
-		System.out.println("ABÇÑ".getBytes().length);
+		System.out.println("ABï¿½ï¿½".getBytes().length);
 
 	}
 
