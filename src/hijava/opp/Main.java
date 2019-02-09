@@ -8,8 +8,13 @@ import hijava.practice.Man;
 public class Main {
 	
 	public static void main(String[] args) {
+		total();
+//		calculator();
+//		software();
+//		netsport();
+//		animal();
 		
-		drinkTest();
+//		drinkTest();
 		
 //		al();
 //		Mom mom = new Mom();
@@ -37,6 +42,54 @@ public class Main {
 //		for(int i = 0; i < size; i++) {
 //			System.out.println(people.get(i));
 		}
+
+
+	private static void total() {
+		int[] arr= new int[] {1,2,5,9};
+		SubTotal st = new SubTotal();
+		System.out.println("Total="+st.sum(arr));
+	}
+
+
+	private static void calculator() {
+		Calculator clac = new CalculatorImpl();
+		int x = 10,y = 5;
+		calc.add(x,y);
+		calc.sub(x,y);
+		
+	}
+
+
+	private static void software() {
+		SoftWare we = new Website();
+		SoftWare mo = new MobilApp();
+		we.product();
+		mo.product();
+		
+		
+	}
+
+
+	private static void netsport() {
+		NetSport pp = new PingPong();
+		NetSport te = new Tennis();
+		pp.play();
+		System.out.println("---------------");
+		te.play();
+	}
+
+
+	private static void animal() {
+		Animal dog = new Dog();
+		Animal cat = new Cat();
+		
+		barkAnimal(dog);
+		barkAnimal(cat);
+	}
+	
+	private static void barkAnimal(Animal ani) {
+		ani.bark();
+	}
 
 
 	private static void drinkTest() {
