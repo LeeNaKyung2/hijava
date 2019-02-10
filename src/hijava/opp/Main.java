@@ -8,7 +8,8 @@ import hijava.practice.Man;
 public class Main {
 	
 	public static void main(String[] args) {
-		total();
+//		calcoper();
+//		total();
 //		calculator();
 //		software();
 //		netsport();
@@ -43,6 +44,17 @@ public class Main {
 //			System.out.println(people.get(i));
 		}
 
+
+	private static void calcoper() {
+		int x = 10, y = 5;
+		CalcOper op = new CalcOper();
+		int a = op.add(x, y);
+		int s = op.sub(x, y);
+		System.out.println(a + "," + s);
+
+		op.mul(x, y);
+		op.div(x, y);
+	}
 
 	private static void total() {
 		int[] arr= new int[] {1,2,5,9};
